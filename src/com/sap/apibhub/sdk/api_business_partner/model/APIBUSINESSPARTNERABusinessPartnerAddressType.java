@@ -39,6 +39,112 @@ public class APIBUSINESSPARTNERABusinessPartnerAddressType {
 
   @SerializedName("AddressID")
   private String addressID = null;
+  
+  @SerializedName("AdditionalStreetPrefixName")
+  private String additionalStreetPrefixName = null;
+  
+  @SerializedName("AdditionalStreetSuffixName")
+  private String additionalStreetSuffixName = null;
+  
+  @SerializedName("AddressTimeZone")
+  private String addressTimeZone = null;
+  
+  @SerializedName("CareOfName")
+  private String careOfName = null;
+  
+  @SerializedName("CityCode")
+  private String cityCode = null;
+  
+  @SerializedName("CityName")
+  private String cityName = null;
+  
+  @SerializedName("CompanyPostalCode")
+  private String companyPostalCode = null;
+  
+  @SerializedName("Country")
+  private String country = null;
+  
+  @SerializedName("County")
+  private String county = null;
+  
+  @SerializedName("DeliveryServiceNumber")
+  private String deliveryServiceNumber = null;
+  
+  @SerializedName("DeliveryServiceTypeCode")
+  private String deliveryServiceTypeCode = null;
+  
+  @SerializedName("District")
+  private String district = null;
+  
+  @SerializedName("FormOfAddress")
+  private String formOfAddress = null;
+  
+  @SerializedName("FullName")
+  private String fullName = null;
+  
+  @SerializedName("HomeCityName")
+  private String homeCityName = null;
+  
+  @SerializedName("HouseNumber")
+  private String houseNumber = null;
+  
+  @SerializedName("HouseNumberSupplementText")
+  private String houseNumberSupplementText = null;
+  
+  @SerializedName("Language")
+  private String language = null;
+  
+  @SerializedName("POBox")
+  private String pOBox = null;
+  
+  @SerializedName("POBoxDeviatingCityName")
+  private String pOBoxDeviatingCityName = null;
+  
+  @SerializedName("POBoxDeviatingCountry")
+  private String pOBoxDeviatingCountry = null;
+  
+  @SerializedName("POBoxDeviatingRegion")
+  private String pOBoxDeviatingRegion = null;
+  
+  @SerializedName("POBoxIsWithoutNumber")
+  private String pOBoxIsWithoutNumber = null;
+  
+  @SerializedName("POBoxLobbyName")
+  private String pOBoxLobbyName = null;
+  
+  @SerializedName("POBoxPostalCode")
+  private String pOBoxPostalCode = null;
+  
+  @SerializedName("Person")
+  private String person = null;
+  
+  @SerializedName("PostalCode")
+  private String postalCode = null;
+  
+  @SerializedName("PrfrdCommMediumType")
+  private String prfrdCommMediumType = null;
+  
+  @SerializedName("Region")
+  private String region = null;
+  
+  @SerializedName("StreetName")
+  private String streetName = null;
+  
+  @SerializedName("StreetPrefixName")
+  private String streetPrefixName = null;
+  
+  @SerializedName("StreetSuffixName")
+  private String streetSuffixName = null;
+  
+  @SerializedName("TaxJurisdiction")
+  private String taxJurisdiction = null;
+  
+  @SerializedName("TransportZone")
+  private String transportZone = null;
+  
+  @SerializedName("AddressIDByExternalSystem")
+  private String addressIDByExternalSystem = null;
+  
 
   @SerializedName("to_AddressUsage")
   private CollectionOfABuPaAddressUsageType toAddressUsage = null;
@@ -201,9 +307,291 @@ public class APIBUSINESSPARTNERABusinessPartnerAddressType {
   public void setToURLAddress(CollectionOfAAddressHomePageURLType toURLAddress) {
     this.toURLAddress = toURLAddress;
   }
+  
+  
 
 
-  @Override
+  public String getAdditionalStreetPrefixName() {
+	return additionalStreetPrefixName;
+}
+
+public void setAdditionalStreetPrefixName(String additionalStreetPrefixName) {
+	this.additionalStreetPrefixName = additionalStreetPrefixName;
+}
+
+public String getAdditionalStreetSuffixName() {
+	return additionalStreetSuffixName;
+}
+
+public void setAdditionalStreetSuffixName(String additionalStreetSuffixName) {
+	this.additionalStreetSuffixName = additionalStreetSuffixName;
+}
+
+public String getAddressTimeZone() {
+	return addressTimeZone;
+}
+
+public void setAddressTimeZone(String addressTimeZone) {
+	this.addressTimeZone = addressTimeZone;
+}
+
+public String getCareOfName() {
+	return careOfName;
+}
+
+public void setCareOfName(String careOfName) {
+	this.careOfName = careOfName;
+}
+
+public String getCityCode() {
+	return cityCode;
+}
+
+public void setCityCode(String cityCode) {
+	this.cityCode = cityCode;
+}
+
+public String getCityName() {
+	return cityName;
+}
+
+public void setCityName(String cityName) {
+	this.cityName = cityName;
+}
+
+public String getCompanyPostalCode() {
+	return companyPostalCode;
+}
+
+public void setCompanyPostalCode(String companyPostalCode) {
+	this.companyPostalCode = companyPostalCode;
+}
+
+public String getCountry() {
+	return country;
+}
+
+public void setCountry(String country) {
+	this.country = country;
+}
+
+public String getCounty() {
+	return county;
+}
+
+public void setCounty(String county) {
+	this.county = county;
+}
+
+public String getDeliveryServiceNumber() {
+	return deliveryServiceNumber;
+}
+
+public void setDeliveryServiceNumber(String deliveryServiceNumber) {
+	this.deliveryServiceNumber = deliveryServiceNumber;
+}
+
+public String getDeliveryServiceTypeCode() {
+	return deliveryServiceTypeCode;
+}
+
+public void setDeliveryServiceTypeCode(String deliveryServiceTypeCode) {
+	this.deliveryServiceTypeCode = deliveryServiceTypeCode;
+}
+
+public String getDistrict() {
+	return district;
+}
+
+public void setDistrict(String district) {
+	this.district = district;
+}
+
+public String getFormOfAddress() {
+	return formOfAddress;
+}
+
+public void setFormOfAddress(String formOfAddress) {
+	this.formOfAddress = formOfAddress;
+}
+
+public String getFullName() {
+	return fullName;
+}
+
+public void setFullName(String fullName) {
+	this.fullName = fullName;
+}
+
+public String getHomeCityName() {
+	return homeCityName;
+}
+
+public void setHomeCityName(String homeCityName) {
+	this.homeCityName = homeCityName;
+}
+
+public String getHouseNumber() {
+	return houseNumber;
+}
+
+public void setHouseNumber(String houseNumber) {
+	this.houseNumber = houseNumber;
+}
+
+public String getHouseNumberSupplementText() {
+	return houseNumberSupplementText;
+}
+
+public void setHouseNumberSupplementText(String houseNumberSupplementText) {
+	this.houseNumberSupplementText = houseNumberSupplementText;
+}
+
+public String getLanguage() {
+	return language;
+}
+
+public void setLanguage(String language) {
+	this.language = language;
+}
+
+public String getpOBox() {
+	return pOBox;
+}
+
+public void setpOBox(String pOBox) {
+	this.pOBox = pOBox;
+}
+
+public String getpOBoxDeviatingCityName() {
+	return pOBoxDeviatingCityName;
+}
+
+public void setpOBoxDeviatingCityName(String pOBoxDeviatingCityName) {
+	this.pOBoxDeviatingCityName = pOBoxDeviatingCityName;
+}
+
+public String getpOBoxDeviatingCountry() {
+	return pOBoxDeviatingCountry;
+}
+
+public void setpOBoxDeviatingCountry(String pOBoxDeviatingCountry) {
+	this.pOBoxDeviatingCountry = pOBoxDeviatingCountry;
+}
+
+public String getpOBoxDeviatingRegion() {
+	return pOBoxDeviatingRegion;
+}
+
+public void setpOBoxDeviatingRegion(String pOBoxDeviatingRegion) {
+	this.pOBoxDeviatingRegion = pOBoxDeviatingRegion;
+}
+
+public String getpOBoxIsWithoutNumber() {
+	return pOBoxIsWithoutNumber;
+}
+
+public void setpOBoxIsWithoutNumber(String pOBoxIsWithoutNumber) {
+	this.pOBoxIsWithoutNumber = pOBoxIsWithoutNumber;
+}
+
+public String getpOBoxLobbyName() {
+	return pOBoxLobbyName;
+}
+
+public void setpOBoxLobbyName(String pOBoxLobbyName) {
+	this.pOBoxLobbyName = pOBoxLobbyName;
+}
+
+public String getpOBoxPostalCode() {
+	return pOBoxPostalCode;
+}
+
+public void setpOBoxPostalCode(String pOBoxPostalCode) {
+	this.pOBoxPostalCode = pOBoxPostalCode;
+}
+
+public String getPerson() {
+	return person;
+}
+
+public void setPerson(String person) {
+	this.person = person;
+}
+
+public String getPostalCode() {
+	return postalCode;
+}
+
+public void setPostalCode(String postalCode) {
+	this.postalCode = postalCode;
+}
+
+public String getPrfrdCommMediumType() {
+	return prfrdCommMediumType;
+}
+
+public void setPrfrdCommMediumType(String prfrdCommMediumType) {
+	this.prfrdCommMediumType = prfrdCommMediumType;
+}
+
+public String getRegion() {
+	return region;
+}
+
+public void setRegion(String region) {
+	this.region = region;
+}
+
+public String getStreetName() {
+	return streetName;
+}
+
+public void setStreetName(String streetName) {
+	this.streetName = streetName;
+}
+
+public String getStreetPrefixName() {
+	return streetPrefixName;
+}
+
+public void setStreetPrefixName(String streetPrefixName) {
+	this.streetPrefixName = streetPrefixName;
+}
+
+public String getStreetSuffixName() {
+	return streetSuffixName;
+}
+
+public void setStreetSuffixName(String streetSuffixName) {
+	this.streetSuffixName = streetSuffixName;
+}
+
+public String getTaxJurisdiction() {
+	return taxJurisdiction;
+}
+
+public void setTaxJurisdiction(String taxJurisdiction) {
+	this.taxJurisdiction = taxJurisdiction;
+}
+
+public String getTransportZone() {
+	return transportZone;
+}
+
+public void setTransportZone(String transportZone) {
+	this.transportZone = transportZone;
+}
+
+public String getAddressIDByExternalSystem() {
+	return addressIDByExternalSystem;
+}
+
+public void setAddressIDByExternalSystem(String addressIDByExternalSystem) {
+	this.addressIDByExternalSystem = addressIDByExternalSystem;
+}
+
+@Override
   public boolean equals(java.lang.Object o) {
     if (this == o) {
       return true;
@@ -228,24 +616,32 @@ public class APIBUSINESSPARTNERABusinessPartnerAddressType {
   }
 
 
-  @Override
-  public String toString() {
-    StringBuilder sb = new StringBuilder();
-    sb.append("class APIBUSINESSPARTNERABusinessPartnerAddressType {\n");
-    
-    sb.append("    businessPartner: ").append(toIndentedString(businessPartner)).append("\n");
-    sb.append("    addressID: ").append(toIndentedString(addressID)).append("\n");
-    sb.append("    toAddressUsage: ").append(toIndentedString(toAddressUsage)).append("\n");
-    sb.append("    toEmailAddress: ").append(toIndentedString(toEmailAddress)).append("\n");
-    sb.append("    toFaxNumber: ").append(toIndentedString(toFaxNumber)).append("\n");
-    sb.append("    toMobilePhoneNumber: ").append(toIndentedString(toMobilePhoneNumber)).append("\n");
-    sb.append("    toPhoneNumber: ").append(toIndentedString(toPhoneNumber)).append("\n");
-    sb.append("    toURLAddress: ").append(toIndentedString(toURLAddress)).append("\n");
-    sb.append("}");
-    return sb.toString();
-  }
+  
+  
 
-  /**
+  @Override
+public String toString() {
+	return "APIBUSINESSPARTNERABusinessPartnerAddressType [businessPartner=" + businessPartner + ", addressID="
+			+ addressID + ",\n additionalStreetPrefixName=" + additionalStreetPrefixName + ", additionalStreetSuffixName="
+			+ additionalStreetSuffixName + ",\n addressTimeZone=" + addressTimeZone + ", careOfName=" + careOfName
+			+ ",\n cityCode=" + cityCode + ", cityName=" + cityName + ", companyPostalCode=" + companyPostalCode
+			+ ",\n country=" + country + ", county=" + county + ", deliveryServiceNumber=" + deliveryServiceNumber
+			+ ",\n deliveryServiceTypeCode=" + deliveryServiceTypeCode + ", district=" + district + ", formOfAddress="
+			+ formOfAddress + ",\n fullName=" + fullName + ", homeCityName=" + homeCityName + ", houseNumber="
+			+ houseNumber + ",\n houseNumberSupplementText=" + houseNumberSupplementText + ", language=" + language
+			+ ",\n pOBox=" + pOBox + ", pOBoxDeviatingCityName=" + pOBoxDeviatingCityName + ", pOBoxDeviatingCountry="
+			+ pOBoxDeviatingCountry + ",\n pOBoxDeviatingRegion=" + pOBoxDeviatingRegion + ", pOBoxIsWithoutNumber="
+			+ pOBoxIsWithoutNumber + ",\n pOBoxLobbyName=" + pOBoxLobbyName + ", pOBoxPostalCode=" + pOBoxPostalCode
+			+ ",\n person=" + person + ", postalCode=" + postalCode + ", prfrdCommMediumType=" + prfrdCommMediumType
+			+ ",\n region=" + region + ", streetName=" + streetName + ", streetPrefixName=" + streetPrefixName
+			+ ",\n streetSuffixName=" + streetSuffixName + ", taxJurisdiction=" + taxJurisdiction + ", transportZone="
+			+ transportZone + ",\n addressIDByExternalSystem=" + addressIDByExternalSystem + ", toAddressUsage="
+			+ toAddressUsage + ",\n toEmailAddress=" + toEmailAddress + ", toFaxNumber=" + toFaxNumber
+			+ ",\n toMobilePhoneNumber=" + toMobilePhoneNumber + ", toPhoneNumber=" + toPhoneNumber + ", toURLAddress="
+			+ toURLAddress + "]";
+}
+
+/**
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
